@@ -6,7 +6,8 @@ export const About = () => {
             <h1>Just a little about me...</h1>
             <p>
                 Why hello there! My name is Sydney Alcantara and I am a self-taught software engineer from Seattle, Washington.
-                I specialize in front-end development, which allows me to use my eye for detail and my critical thinking skills to 
+                I specialize in front-end development, but also have an interest in UI and UX design.
+                
             </p>  
             <p>
                 During my free time, I enjoy playing video games, cooking, baking, art, and spending time with loved ones.
