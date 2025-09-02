@@ -2,6 +2,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+
+### Requirements
+- Install Yarn 1.22.22 https://classic.yarnpkg.com/lang/en/
+- Install Chakra UI https://v2.chakra-ui.com/
+
 First, run the development server:
 
 ```bash
