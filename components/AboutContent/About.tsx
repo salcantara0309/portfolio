@@ -1,7 +1,8 @@
 import React from "react";
 import { 
   Heading, 
-  Text 
+  Text,
+  List
 } from "@chakra-ui/react";
 
 const About = () => {
@@ -12,7 +13,16 @@ const About = () => {
       <Text></Text>
       <Text>Other hobbies I enjoy include video games, drawing, baking, and making miscellaneous crafting projects .</Text>
       <Heading textTransform={"uppercase"} >Skills</Heading>
-
+      <List.Root>
+        <List.Item>HTML</List.Item>
+        <List.Item>CSS</List.Item>
+        <List.Item>Javascript</List.Item>
+        <List.Item>Typescript</List.Item>
+        <List.Item>Python</List.Item>
+        <List.Item>React</List.Item>
+        <List.Item>Next.js</List.Item>
+        <List.Item>Django</List.Item>
+      </List.Root>
     </div>
   )
 }
