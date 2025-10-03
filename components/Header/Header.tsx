@@ -7,9 +7,9 @@ import {
 
 const Header = () => {
   return (
-    <div>
+    <Flex p={5} >
       <Heading>TEST HEADER</Heading>
-    </div>
+    </Flex>
   )
 }
 

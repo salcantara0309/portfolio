@@ -10,12 +10,12 @@ const MainLayout = (props: Props) => {
   const { title, children } = props;
   
   return (
-    <Box>
+    <Box p={5} h={'100%'}>
       <Head>
         <title>{title}</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <div>{children}</div>
+      <Box h={'100%'}>{children}</Box>
     </Box>
   )
 }

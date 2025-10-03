@@ -8,7 +8,7 @@ import MainLayout from "../../components/Layout/MainLayout";
 
 export default function Home() {
   return (
-    <MainLayout title="Home">
+    <MainLayout title="Sydney Alcantara">
       <HomePageContent />
     </MainLayout>
   );

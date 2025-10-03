@@ -12,7 +12,7 @@ import { IoLogoLinkedin } from "react-icons/io5";
 
 const Footer = () => {
   return (
-    <div>
+    <Flex p={5}>
       <Box>
         <Flex>
           <Text>Find me on...</Text>
@@ -30,8 +30,12 @@ const Footer = () => {
             <Link></Link>
           </Box>
         </Flex>
+        <Flex>
+          <Text>Feel free to reach out to me at...</Text>
+          <Link>INSERT EMAIL HERE</Link>
+        </Flex>
       </Box>
-    </div>
+    </Flex>
   )
 }
 
